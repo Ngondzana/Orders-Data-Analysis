@@ -4,14 +4,14 @@ This project focuses on the analysis of orders data obtained from the Kaggle API
 # Data Cleaning
 Before performing the analysis, the dataset underwent several cleaning steps:
 
-##- Handling Null Values:
-Identified and filled or removed null values in critical columns to ensure data integrity.
+1. ** Handling Null Values:
+    -Identified and filled or removed null values in critical columns to ensure data integrity.
 
-##- Creating New Columns:
-New calculated columns were created, such as total_revenue (calculated as quantity * sale_price) and profit_margin (calculated as profit / total_revenue).
+2. ** Creating New Columns:
+    -New calculated columns were created, such as total_revenue (calculated as quantity * sale_price) and profit_margin (calculated as profit / total_revenue).
 
-##- Deleting Irrelevant Columns:
-Removed columns that did not contribute to the analysis, ensuring the dataset remained focused and manageable.
+3. ** Deleting Irrelevant Columns:
+-Removed columns that did not contribute to the analysis, ensuring the dataset remained focused and manageable.
 
 # Conclusion
 The analysis of the orders data provided valuable insights into product performance, regional sales trends, and growth comparisons. This project highlights the importance of data cleaning and structured querying in deriving actionable business intelligence from raw data.
